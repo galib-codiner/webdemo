@@ -1,0 +1,303 @@
+
+.aboutBanner {
+    margin-top: 90px !important;
+    background-image: url(../../assests/About-banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 130px 0px;
+}
+
+.aboutBanner h1 {
+    color: #FFFFFF;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 50px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+/* whoweAre-start */
+
+.whoweAre {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.whoweAre h2 {
+    color: #000000;
+    padding: 10px 20px 20px 40px;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+} 
+
+.whoweAre p {
+    padding: 10px 20px 20px 40px;
+    font-size: 20px; 
+    line-height: 1.6; 
+    font-weight: 400;
+}
+
+.whatWeDo {
+    padding-top: 60px;
+}
+
+.whatWeDo h2 {
+    color: #000000;
+    padding: 10px 20px 20px 40px;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+} 
+
+.whatWeDo p {
+    padding: 10px 20px 20px 40px;
+    font-size: 20px; 
+    line-height: 1.6; 
+    font-weight: 400;
+}
+
+
+/* whoweAre-end */
+
+
+/* we-offer */
+
+.we-offer {
+    background-image: url(../../assests/we-offer.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 60px 0px;
+    margin-top: 100px;
+}
+
+.we-offer-title h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.we-offer-body h3 {
+    color: #FFC10D;
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: 600;
+}
+.we-offer-body h4 {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 300 !important;
+}
+
+/* we-offer-end */
+
+/* team-start */
+
+.our-team-title h2 {
+    color: #000000;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 3.1em;
+}
+
+.our-team .innerBox {
+    padding: 0px 25px 100px 25px;
+    background-color: #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 16px 0px rgb(0 0 0 / 26%);
+    margin: 70px 10px;
+    height: 500px;
+}
+
+.our-team .innerBox .teamImage img {
+    margin-top: -100px;
+    width: 70%;
+    align-items: center;
+}
+.our-team .innerBox .team-title {
+    padding-top: 20px;
+}
+.our-team .innerBox .team-title h3{
+    margin-bottom: 0px;
+    color: #1A2D42;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.our-team .innerBox .team-title h4{
+    color: #1A2D42;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6em;
+    text-align: left;
+    font-style: italic;
+}
+
+.our-team .innerBox .teamText {
+    padding-top: 15px;
+}
+.our-team .innerBox .teamText p {
+    color: #1A2D42;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6em;
+    text-align: left;
+}
+
+.our-team .innerBox .teamSocial {
+    padding-top: 50px;
+}
+
+.teamSocial .leftTeamSocial {
+    float: left !important;
+}
+
+.teamSocial .leftTeamSocial {
+    background-color: #0077b5;
+    padding: 5px;
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+}
+.teamSocial .leftTeamSocial:hover {
+    background-color: #0f87c7;
+}
+
+.teamSocial .leftTeamSocial .css-i4bv87-MuiSvgIcon-root {
+    color: #ffffff;
+}
+
+.teamSocial .rightTeamSocial {
+    float: right !important;
+    color: #014A97;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+.teamSocial .rightTeamSocial a {
+    color: #014A97;
+}
+
+/* team-end */
+
+
+
+
+/* Responsive-Start */
+
+@media only screen and (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
+}
+  
+@media only screen and (min-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+}
+  
+  @media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+}
+  
+@media only screen and (max-device-width: 480px) {
+  /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .aboutBanner {
+        padding: 70px 0px;
+        margin-top: 100px !important;
+    }
+
+    .aboutBanner h1 {
+        color: #FFFFFF;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        padding: 0px 20px;
+    }
+    .whoweAre img {
+        padding: 0px 20px;
+    }
+    .whatWeDo img {
+        padding: 0px 20px;
+    }
+    .whoweAre {
+        padding-top: 60px;
+        padding-bottom: 0px;
+    }
+    .whatWeDo {
+        padding-top: 0px;
+    }
+    .we-offer { 
+        padding: 60px 20px;
+        margin-top: 100px;
+    }
+    .whatWeDo #first {
+        order: 2;
+    }
+    .whatWeDo #second {
+        order: 1;
+    }
+    .our-team-title h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+ @media only screen and (max-device-width: 768px) {
+  /* default iPad screens */
+    .aboutBanner {
+        padding: 70px 0px;
+        margin-top: 100px !important;
+    }
+
+    .aboutBanner h1 {
+        color: #FFFFFF;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        padding: 0px 20px;
+    }
+    .whoweAre img {
+        padding: 0px 20px;
+    }
+    .whatWeDo img {
+        padding: 0px 20px;
+    }
+    .whoweAre {
+        padding-top: 60px;
+        padding-bottom: 0px;
+    }
+    .whatWeDo {
+        padding-top: 0px;
+    }
+    .we-offer { 
+        padding: 60px 20px;
+        margin-top: 100px;
+    }
+    .whatWeDo #first {
+        order: 2;
+    }
+    .whatWeDo #second {
+        order: 1;
+    }
+    .our-team-title h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+  
+@media only screen and (max-width: 1024px) {
+    /* styles for browsers larger than 960px; */
+}
+  
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+}
+  
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    /* For landscape layouts only */
+}

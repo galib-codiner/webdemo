@@ -1,0 +1,200 @@
+.serviceBanner {
+    margin-top: 90px !important;
+    background-image: url(../../assests/Services.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 130px 0px;
+}
+
+.serviceBanner h1 {
+    color: #FFFFFF;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+
+/* our-values-start */
+
+.our-values h2 {
+    font-size: 40px;
+    color: #000000;
+    font-weight: 600;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.our-values p{
+    font-size: 20px !important;
+    line-height: 1.5 !important;
+}
+
+/* our-values-end */
+
+/* servicelist */
+
+.serviceList {
+    background-image: url(../../assests/service-list-bg.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 80px 0px 35px 0px;
+}
+
+.serviceList h3 {
+    color: #fff;
+}
+
+.icon {
+    color: #FFFFFF;
+    float: left;
+    position: relative;
+    top: -15px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.serviceList .css-i4bv87-MuiSvgIcon-root {
+    font-size: 50px !important;
+}
+  
+.content {
+    margin-top: 0px;
+    margin-left: 60px;
+}
+
+.content h5 {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+/* servicelist-end */
+
+/* benifits-start */
+
+.benifits h2 {
+    color: #000000;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.benifits img {
+    border: 15px solid #d1e7ff;
+    border-radius: 50%;
+}
+
+.benifits h3 {
+    color: #000000;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* benifits-end */
+
+
+/* Responsive-Start */
+
+@media only screen and (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
+}
+  
+@media only screen and (min-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+}
+  
+  @media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+}
+  
+@media only screen and (max-device-width: 480px) {
+  /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .serviceBanner {
+        padding: 70px 0px;
+        margin-top: 100px !important;
+    }
+
+    .serviceBanner h1 {
+        color: #FFFFFF;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        padding: 0px 20px;
+    }
+    .our-values h2 {
+        font-size: 26px;
+        color: #000000;
+        font-weight: 600;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .our-values p {
+        padding: 5px 15px;
+    }
+    .benifits h2 {
+        color: #000000;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+}
+
+ @media only screen and (max-device-width: 768px) {
+  /* default iPad screens */
+    .serviceBanner {
+        padding: 70px 0px;
+        margin-top: 100px !important;
+    }
+
+    .serviceBanner h1 {
+        color: #FFFFFF;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        padding: 0px 20px;
+    }
+    .our-values h2 {
+        font-size: 26px;
+        color: #000000;
+        font-weight: 600;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .our-values p {
+        padding: 5px 15px;
+    }
+    .benifits h2 {
+        color: #000000;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+}
+  
+@media only screen and (max-width: 1024px) {
+    /* styles for browsers larger than 960px; */
+}
+  
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+}
+  
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    /* For landscape layouts only */
+}

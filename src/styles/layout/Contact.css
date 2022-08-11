@@ -1,0 +1,201 @@
+/* contactus-banner */
+.contactBanner {
+    margin-top: 90px !important;
+    background-image: url(../../assests/contact-banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 130px 0px;
+}
+
+.contactBanner h1 {
+    color: #FFFFFF;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 50px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+
+/* contactus-banner-end */
+
+.contact-us {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.contact-us h2 {
+    color: #000000;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.contact-us .contact-left p {
+    font-size: 20px; 
+    line-height: 1.6; 
+    font-weight: 400;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.contact-us .contact-right{
+    margin: 10px;
+}
+
+.contact-us .contact-right p {
+    font-size: 20px; 
+    line-height: 1.6; 
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+/* form */
+
+.contactForm .form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #EEEEEF;
+    background-clip: padding-box;
+    border: 0px;
+    outline: 0px;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+} 
+
+.contactForm .btn-primary {
+    background-color: #FFC10D;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    padding: 10px 40px 10px 40px;
+    border-radius: 40px;
+    margin-top: 17px;
+    border: none;
+    outline: none;
+}
+
+.contactForm textarea.form-control {
+    height: 120px;
+}
+/* form-end */
+
+
+/* Responsive-Start */
+
+@media only screen and (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
+}
+  
+@media only screen and (min-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+}
+  
+  @media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+}
+  
+@media only screen and (max-device-width: 480px) {
+  /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .contactBanner {
+        padding: 70px 0px;
+        margin-top: 100px !important;
+    }
+
+    .contactBanner h1 {
+        color: #FFFFFF;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        padding: 0px 20px;
+    }
+    .contact-us {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .contact-us h2 {
+        color: #000000;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        padding: 0px 15px;
+    }
+
+    .contact-us .contact-left p {
+        font-size: 20px; 
+        line-height: 1.6; 
+        font-weight: 400;
+        padding: 10px 15px 20px 15px;
+    } 
+    .contact-right p {
+        padding: 0px 10px;
+    }
+    .contact-left .emailId {
+        padding: 0px 20px 20px 20px; 
+        border-bottom: 1px solid #000000;
+        margin: 0px 30px 20px 30px;
+    } 
+}
+
+ @media only screen and (max-device-width: 768px) {
+  /* default iPad screens */ 
+    .contactBanner {
+        padding: 70px 0px;
+        margin-top: 100px !important;
+    }
+
+    .contactBanner h1 {
+        color: #FFFFFF;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        padding: 0px 20px;
+    }
+    .contact-us {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .contact-us h2 {
+        color: #000000;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        padding: 0px 15px;
+    }
+
+    .contact-us .contact-left p {
+        font-size: 20px; 
+        line-height: 1.6; 
+        font-weight: 400;
+        padding: 10px 15px 20px 15px;
+    } 
+    .contact-right p {
+        padding: 0px 10px;
+    }
+    .contact-left .emailId {
+        padding: 0px 20px 20px 20px; 
+        border-bottom: 1px solid #000000;
+        margin: 0px 30px 20px 30px;
+    }
+
+}
+  
+@media only screen and (max-width: 1024px) {
+    /* styles for browsers larger than 960px; */
+}
+  
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+}
+  
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    /* For landscape layouts only */
+}

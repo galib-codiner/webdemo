@@ -1,0 +1,269 @@
+/* banner-start */
+
+.banner {
+    margin-top: 100px !important;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* .headerText {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    transform: translate(-10%, -10%);
+    width: 500px;
+}
+
+.headerText h2{
+    color: #FFFFFF;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.1em;
+}
+
+.headerText p{
+    color: #FFFFFF;
+    font-size: 20px !important;
+    line-height: 1.5 !important;
+}
+
+.headerText button {
+    background-color: #41e8e0;
+    color: #014A97;
+    font-family: 'Helvetica'!important;
+    border: 0px;
+    font-weight: 500px;
+    outline: none;
+    border-radius: 50px;
+    padding: 8px 20px;
+} */
+
+ .row>* {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.homeBanner {
+    position: relative;
+    background: url(../../assests/home-banner.png);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    padding: 270px 10px 10px 10px;
+}
+
+.homeBanner h2 {
+    color: #FFFFFF;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.1em;
+}
+.homeBanner p {
+    color: #FFFFFF;
+    font-size: 20px !important;
+    line-height: 1.5 !important;
+}
+
+.homeBanner button {
+    background-color: #41e8e0;
+    color: #014A97;
+    font-family: 'Helvetica'!important;
+    border: 0px;
+    font-weight: 500px;
+    outline: none;
+    border-radius: 50px;
+    padding: 8px 20px;
+}
+
+/* banner-end */
+
+/* about-start */
+
+.about h2 {
+    color: #091017;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+.about p {
+    margin-top: 30px;
+    font-size: 20px !important;
+    line-height: 1.5 !important;
+}
+
+.aboutVideo iframe {
+    float: right !important;
+    border-radius: 20px;
+}
+
+/* about-end */
+
+/* solutions-start */
+
+.solutions h2{
+    color: #000000;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+/* solutions-end */
+
+
+/* MissionVisionValue-start */
+
+.visionMissionValue {
+    background-image: url(../../assests/mission-vission-bg.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+}
+
+.vision {
+    background-image: url(../../assests/Vision-1.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 250px 30px;
+}
+
+.mission {
+    background-image: url(../../assests/Mission.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 250px 30px;
+}
+
+.value {
+    background-image: url(../../assests/Values.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 250px 30px;
+}
+
+.vision h2 {
+    color: #FFC10D;
+    font-size: 34px;
+    font-weight: 700;
+    padding: 5px;
+}
+.mission h2 {
+    color: #FFC10D;
+    font-size: 34px;
+    font-weight: 700;
+    padding: 5px;
+}
+.value h2 {
+    color: #FFC10D;
+    font-size: 34px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.vision, .mission p {
+    color: #000000;
+    line-height: 1.8em;
+    font-size: 16px;
+}
+
+/* MissionVisionValue-start */
+
+
+
+/* Responsive-Start */
+
+@media only screen and (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
+  }
+  
+  @media only screen and (min-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+  }
+  
+  @media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+  }
+  
+  @media only screen and (max-device-width: 480px) {
+  /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .homeBanner {
+        padding: 170px 10px 10px 10px;
+    }
+
+    .about h2 {
+        padding: 0px 10px;
+    }
+    .about p {
+        padding: 0px 10px;
+    }
+    .aboutVideo iframe {
+        float: right !important;
+        border-radius: 20px;
+        width: 100%;
+        padding: 0px 10px;
+    }
+    .mission {
+        padding: 218px 30px;
+    }
+    .solutions h2 {
+        font-size: 26px;
+        font-weight: 600;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+    }
+  }
+
+  @media only screen and (max-device-width: 768px) {
+  /* default iPad screens */
+    .homeBanner {
+        padding: 170px 10px 10px 10px;
+    }
+    .about h2 {
+        padding: 0px 10px;
+    }
+    .about p {
+        padding: 0px 10px;
+    }
+    .aboutVideo iframe {
+        float: right !important;
+        border-radius: 20px;
+        width: 100%;
+        padding: 0px 10px;
+    }
+    .mission {
+        padding: 218px 30px;
+    }
+    .solutions h2 {
+        font-size: 26px;
+        font-weight: 600;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    /* styles for browsers larger than 960px; */
+    .aboutVideo iframe {
+        float: right !important;
+        border-radius: 20px;
+        width: 100%;
+        padding: 0px 10px;
+    }
+  }
+  
+  
+  /* different techniques for iPad screening */
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+  }
+  
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    /* For landscape layouts only */
+  }
